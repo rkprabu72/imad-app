@@ -14,6 +14,11 @@ app.get('/prabhu', function (req, res) {
 app.get('/Sudarshan', function (req, res) {
   res.send('You have called Sudarshan');
 });
+app.get ('/JGD',function (req, res)
+                 {res.send('YOU HAVE CALLED THE GURU')
+                 }
+        )
+ 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
