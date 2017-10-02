@@ -62,7 +62,7 @@ app.get ('/JGD',function (req, res)
                  }
         )
  app.get ('/Basic-course',function (req, res)
-                 {res.send(createtemplate(Basic-course))
+                 {res.send(createtemplate(basic-course))
                  }
          );
 app.get('/ui/style.css', function (req, res) {
