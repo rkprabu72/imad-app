@@ -51,10 +51,10 @@ function createtemplate (data)
       ;
      return htmltemplate;
     }
-app.get('/prabhu', function (req, res) {
+app.get('/prabhu1', function (req, res) {
   res.send('You have called Prabhu');
 });
-app.get('/Sudarshan', function (req, res) {
+app.get('/Sudarshan1', function (req, res) {
   res.send('You have called Sudarshan');
 });
 app.get ('/JGD',function (req, res)
